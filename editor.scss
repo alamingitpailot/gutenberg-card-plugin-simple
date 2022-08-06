@@ -1,0 +1,283 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+ 
+
+.components_button_main {
+
+    flex-direction: column !important;
+	img{
+		border-radius: 3px;
+	}
+	.image_upload_btn {
+		margin-top: 10px;
+		font-size: 18px;
+		border-radius: 3px;
+		box-shadow: 1px 1px 1px 1px #000;
+		&:focus{
+			outline: 1px solid #000 !important;
+    		box-shadow: 1px 1px 1px 1px #000;
+			
+		}
+		&:hover{
+			color:#000;
+		}
+
+	}
+}
+
+
+// title css add 
+.card_title_label {
+	margin-bottom: 10px;
+
+	.components-flex-item {
+		label {
+			font-size: 18px;
+			color: #000000e3 !important;
+			font-family: 'Source Serif Pro';
+		}
+	}
+
+	.components-input-control__container {
+		input {
+			font-family: 'Source Serif Pro' !important;
+    		font-size: 16px !important;
+			height: 35px !important;
+			&:focus {
+				outline: 1px solid #000 !important;
+				border-color: #f0f8ff00 !important;
+			}
+			
+		}
+		select{
+			font-family: 'Source Serif Pro' !important;
+    		font-size: 16px !important;
+			height: 35px !important;
+		}
+		
+	}
+}
+
+.card_description_label {
+	.components-base-control__field {
+		label {
+			font-size: 18px;
+			color: #000000e3 !important;
+			font-family: 'Source Serif Pro';
+		}
+		textarea {
+			font-family: 'Source Serif Pro' !important;
+    		font-size: 16px !important;
+			&:focus {
+				
+				outline: 1px solid #000 !important;
+				border-color: #f0f8ff00 !important;
+			}
+		}
+	}
+}
+
+// card foooter css 
+.card_footer {
+	flex-direction: column !important;
+	align-items: stretch !important;
+	.c_f_title {
+		h1 {
+			font-size: 20px;
+			color:#191970;
+			font-weight: 500;
+		}
+	}
+}
+
+// Panel Card Style 
+.card_panel_style {
+    flex-direction: column;
+    align-items: stretch;
+	.card_panel_space {
+		margin-top: -14px !important;
+		 
+	}
+	.card_panel_space_color_code {
+		margin-top: -38px !important;
+	}
+}
+
+// description space remove margin - 
+.des_margin_top {
+	margin-top: -38px !important;
+}
+
+// Card Main section 
+.card_main {
+	 
+	.card_img_area {
+		 
+		.card_img {
+			img {}
+		}
+	}
+	.card_button {
+		a{
+			text-decoration: none;
+			display: inline-block;
+		}
+	}
+}
+
+
+// Card Border Label 
+
+.card_title_label  {
+	.components-base-control__field {
+		margin-bottom: 10px !important;
+		label {
+			font-size: 18px;
+			color: #000000e3 !important;
+			font-family: 'Source Serif Pro';
+		}
+	}
+}
+
+// Card Image Style 
+.card_image_style {
+	flex-direction: column;
+	align-items: stretch;
+}
+
+  /*****************************************/
+ /****************** Accrodion title *****/
+/***************************************/
+
+.main_accrodion_header {
+
+	.components-panel__header {
+		 h2 {
+			font-size: 16px;
+			font-family: 'Source Serif Pro';
+			font-weight: 700;
+			margin-bottom: 0px !important;
+		 }
+	}
+
+}
+
+
+.accrodion_header {
+	.components-panel__body-title {
+		button{
+			font-size: 16px;
+			color: #00308F;
+			font-family: 'Source Serif Pro';
+			font-weight: 500;
+		}
+	}
+}
+.accrodion_header.is-opened {
+	.components-panel__body-title {
+		button{
+			background: #1F75FE;;
+			color:#fff;
+			
+		}
+	}
+}
+
+// right side area space 
+.button_space {
+	font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px;
+}
+
+.card_title_label {
+	.components-input-control__container {
+		.components-input-control__suffix {
+			select {
+				width: 40px;
+			}
+		}
+	}
+}
+
+// table panel style  
+.my-tab-panel {
+	.components-tab-panel__tabs {
+		margin-bottom: 25px;
+		background: #B0C4DE;
+		border-radius: 18px 5px 18px 3px;
+		button{
+			color: #000;
+    		font-size: 16px;
+			&:focus{
+				outline: none !important;
+				box-shadow: none !important;
+				color: #3F00FF;
+			}
+		}
+
+		.active-tab {
+			color: #3F00FF;
+		}
+	}
+}
+
+// Text Align Toolbar 
+.textalign_are {
+	h1{
+		margin: 0;
+		font-size: 18px;
+    	color: rgba(0, 0, 0, 0.8901960784) !important;
+    	font-family: "Source Serif Pro";
+		margin-bottom: 10px;
+		font-weight: 400;
+	}
+
+	.textAlign_style {}
+
+	.components-dropdown{
+		min-height: 35px;
+		border-radius: 3px;
+		button {
+			height: 32px;
+		
+		}
+		&:focus {
+			outline: none;
+			box-shadow: none;
+		}
+	}
+
+}
+
+// Card Show area 
+.components_button_main {
+	.components-base-control {
+		.components-flex {
+			.components-flex-item {
+				label {
+					font-size: 18px;
+					color: #000000e3 !important;
+					font-family: 'Source Serif Pro';
+				}
+			}
+		}
+		.components-input-control__container {
+			select {
+				width: 200px;
+				height: 35px;
+				font-size: 16px;
+				&:focus {
+					outline: 1px solid #000 !important;
+					border-color: #f0f8ff00 !important;
+				}
+			}
+		}
+	}
+}
